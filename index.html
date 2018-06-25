@@ -1,67 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Home</title>
-		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-			<!--bootstrap-->
-			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
-			 crossorigin="anonymous">
-			
-			
-			<!--csss-->
-			<link rel="stylesheet" type="text/css" href="css/diseñoinicio.css">
-			<link rel="stylesheet" href="css/style.css">
-			
-			
-			<!--favicon-->
-			<link rel="shortcut icon" type="image/x.icon" href="imagenes/4.png">
+	<meta charset="utf-8">
+	<title>Intellect</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="" name="keywords">
+	<meta content="" name="description">
+
+	<!-- Favicons -->
+	<link href="imagenes/4.png" rel="icon">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
+
+	<!-- Bootstrap CSS File -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Libraries CSS Files -->
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/pruebas.css">
+
 
 </head>
+
 <body>
-	
-	<!--=================header oescabesado nav-bar===================================-->
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<img class="logo" src="imagenes/4.png" alt="">
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-		 aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarNav">
-			<ul class="navbar-nav">
-				<li class="nav-item active">
-					<a class="nav-link" href="#">Home
-						<span class="sr-only">(current)</span>
-					</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Features</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Pricing</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link disabled" href="#">Disabled</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
 
-<!--========================titulo o slogan de la pagina==========================-->
-			<div class="container-fluid slogan">
-				<h2>¿Quieres aprender algo mas de fisica algo nuevo</h2>
-				<!--la imagen-->
+
+	<header id="header">
+		<div class="container">
+
+			<div id="logo" class="pull-left">
+				<a href="#hero">
+					<img height="17%" width="17%" src="imagenes/4.png" alt="">
+				</a>
+			
+
 			</div>
 
+			<nav id="nav-menu-container">
+				<ul class="nav-menu">
+					<li class="menu-active">
+						<a href="#start">Inicio</a>
+					</li>
+					<li>
+						<a href="#about">Explicacion</a>
+					</li>
+					<li>
+						<a href="#services">Ejercicios</a>
+					</li>
+					<li>
+						<a href="#portfolio">Quiz</a>
+					</li>
+					<li>
+						<a href="#team">Equipo</a>
+					</li>
+				</ul>
+			</nav>
+			<!-- #nav-menu-container -->
+		</div>
+	</header>
+	<!-- #header -->
+
+	<!--==========================
+    Hero Section
+  ============================-->
+	<section id="hero">
+		<div class="hero-container">
+			<h1>Bine venido a Intellect</h1>
+			<h2>¿QUIERES APRENDER ALGO MAS DE FISICA?!</h2>
+			<a href="explicaciones.html" class="btn-get-started">Empecemos</a>
+		</div>
+	</section>
+	<!-- #hero -->
+
+
+
+	<section id="start" class="container">
+		<h2>¿Quienes somos?</h2>
+			<p>respondiendo la primera pregunta, somos estudientes de grado decimo que nos preocupamos al ver nuestros resultados en pruebas
+				y evaluaciones tras el primer periodo decidimos hacer algo por nueestros compañeros tras estas notas.</p>
 
 		
+		<h2>¿Que hacemos?</h2>
+		<p>lo que estasmos realizando en este moemnto en diseñando programando y elaborandoo una pagina web con teoria, definiciones,
+			formulas, ejercisios y quizes para q ayude e insentive a trabajar mas en el area de fisica de grado decimo.</p>
+	</section>
 
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-		 crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
-		 crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
-		 crossorigin="anonymous"></script>
-</body>
-</html>
+	<!-- JavaScript Libraries -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-migrate.min.js"></script>
+	
+	<script src="lib/easing/easing.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	
+	<script src="js/superfish.min.js"></script>
+	
+
+	<!-- Template Main Javascript File -->
+	<script src="js/main.js"></script>
+	
+	</body>
+	
+	</html>
