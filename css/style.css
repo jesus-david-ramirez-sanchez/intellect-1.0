@@ -1,1 +1,19 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.slogan {
+  background-attachment: fixed;
+  background-size: cover;
+  background: url("../imagenes/fondo-slogan.jpg");
+  color: white;
+  height: 300px;
+}
+
+.slogan h2 {
+  font-size: 350%;
+  text-align: center;
+  padding-top: 7%;
+}
+
+.logo {
+  height: 2%;
+  width: 2%;
+}
+/*# sourceMappingURL=style.css.map */

@@ -34,12 +34,6 @@ body{
 
    }
 
-.titulos{
-    font-size:60px;
-    padding-bottom: 50px;
-    padding-top: 40px;
-}
-
 .fco{
     background-color: #088A85;
     height: 10%
@@ -64,30 +58,6 @@ body{
     width: 100%;
 }
 
-.parrafos h2{
-   font-family: 'Tinos', serif;
-    font-family: 'Vidaloka', serif;
-    font-family: 'Neuton', serif;
-    font-family: 'Adamina', serif;
-    font-size: 50px;
-    position: center;
-}
-
-
-.parrafos img{
-    height: 60%;
-    width: 60%;
-    margin-right: 50%;
-    margin-left: 20%;
-
-
-}
-
-.parrafos h2{
-    margin-left:30%; 
-    margin-right:30%;
-}
-
 
 .parrafos p{
     font-size: 30px;
@@ -104,38 +74,6 @@ body{
     background-color:rgba(141,88,232,0.3); 
 }
 
-.barra {
-    display: inline-block; 
-    padding: 10px 34px;
-    font-family: 'Tinos', serif;
-    font-family: 'Vidaloka', serif;
-    font-family: 'Neuton', serif;
-    font-family: 'Adamina', serif;
-    color: black;
-    font-size: 20px;
-    background: #A4A4A4;
-    margin: 4px;
-    cursor: pointer;
-    background: rgba(0,0,0,0);
-    color: #ffffff;
-    box-shadow: inset 0 0 0 4px #045FB4;
-    float: right;
-    
-    
-    
-    
-}
-.barra:hover{
-    opacity: 9.2;
-    background-color: rgba(0,0,0,0.5);
-    color: #fff; 
-    transition: 1s;
-}
-
-.barra:active{
-    transform: scale(0.95);
-}
-
 .titulo{
    font-family: 'Righteous', cursive;
    font-size: 50px;
@@ -150,19 +88,6 @@ body{
     text-decoration-line: none;
 }
 
-.center{
-    text-align: center;
-    font-family: 'Tinos', serif;
-    font-family: 'Vidaloka', serif;
-    font-size: 50px;
-    color: black;
-}
-
-h2{
-    font-family: 'Tinos', serif;
-    font-family: 'Vidaloka', serif;
-    font-size: 35px;
-}
 
 h4{
     font-size: 20px;
@@ -191,7 +116,9 @@ h3{
     font-family: 'Neuton', serif;
     font-family: 'Adamina', serif;
     margin-right: 100px;
-    text-decoration-line: none;
+    text-decoration-line: none;   
+
+
 }
 /*son las explicaciones de lo ejercicios o enunciados*/
 .expli{
@@ -230,34 +157,6 @@ input{
     border-color: black;
     background-image: url(nepe.png);
 }
-
-.retorno{
-    text-decoration-line: none;
-    font-family: 'Tinos', serif;
-    font-family: 'Vidaloka', serif;
-    font-family: 'Neuton', serif;
-    font-family: 'Adamina', serif;
-    font-size: 25px;
-    padding: 10px 43px;
-    background: #BDBDBD;
-    color: black;
-    box-shadow: inset 0 0 0 4px black;
-    margin-left: 1000px;
-    display: inline;
-    margin-left: auto;
-    float: right;
-}
-
-.retorno:hover{
-    background: #1C1C1C;
-    color: #fff;
-    transition: 1s;
-}
-
-.retorno:active{
-    transform: scale(0.95);
-}
-
 
 .preguntas{
     margin-right: 150px;
