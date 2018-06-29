@@ -1,3 +1,5 @@
+/* Coolors Exported Palette - coolors.co/ffa25b-e5cf80-60c4b8-2e334c-13a0a0 */
+/* RGB */
 .slogan {
   background-attachment: fixed;
   background-size: cover;
@@ -10,5 +12,29 @@
   font-size: 350%;
   text-align: center;
   padding-top: 7%;
+}
+
+.showcase-img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../imagenes/quienes.png");
+  height: 400px;
+}
+
+.showcase-img1 {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../imagenes/hacemos.png");
+  height: 400px;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 3px;
 }
 /*# sourceMappingURL=style.css.map */
