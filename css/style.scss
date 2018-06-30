@@ -17,20 +17,6 @@ $tamano: 100%;
     padding-top: 7%;
 }
 
-.showcase-img{
-    background-size: contain ;
-    background-repeat: no-repeat ;
-    background-image: url('../imagenes/quienes.png');
-    height: 400px
-}
-
-
-.showcase-img1{
-    background-size: contain ;
-    background-repeat: no-repeat ;
-    background-image: url('../imagenes/hacemos.png');
-    height: 400px
-}
     
 .no-gutters{
     padding: 30px;
@@ -45,6 +31,36 @@ $tamano: 100%;
         }
 
         img{
-            padding-left: 15%;
+            display: block;
+            margin: auto;
         }
 }
+
+.footer{
+    background: #333;
+    height: 100px;
+    width: 100%;
+    padding-left:10px;
+    padding-right:10px;
+    float:left;
+    text-align:center;
+
+        li{
+            display: inline-block;
+            font-size: 30px;
+            padding: 20px;
+            margin: 0 auto;
+        }
+
+        a{
+            color: grey;
+            transition: background-color .5s;
+        }
+
+        a:hover{
+            color: $aqua;
+        }
+
+}
+
+

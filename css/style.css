@@ -14,20 +14,6 @@
   padding-top: 7%;
 }
 
-.showcase-img {
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url("../imagenes/quienes.png");
-  height: 400px;
-}
-
-.showcase-img1 {
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url("../imagenes/hacemos.png");
-  height: 400px;
-}
-
 .no-gutters {
   padding: 30px;
 }
@@ -42,6 +28,34 @@
 }
 
 .no-gutters img {
-  padding-left: 15%;
+  display: block;
+  margin: auto;
+}
+
+.footer {
+  background: #333;
+  height: 100px;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+  text-align: center;
+}
+
+.footer li {
+  display: inline-block;
+  font-size: 30px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.footer a {
+  color: grey;
+  -webkit-transition: background-color .5s;
+  transition: background-color .5s;
+}
+
+.footer a:hover {
+  color: #13a0a0;
 }
 /*# sourceMappingURL=style.css.map */
