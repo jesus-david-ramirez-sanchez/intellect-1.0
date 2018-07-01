@@ -33,6 +33,8 @@ $tamano: 100%;
         img{
             display: block;
             margin: auto;
+            height: 98%;
+            width: 70%;
         }
 }
 
@@ -63,4 +65,27 @@ $tamano: 100%;
 
 }
 
+.showcase{
+    p{
+        text-align: justify;
+        color: #333 !important;
+    }
 
+    h2{
+        text-align: center;
+        color: #000;
+    }
+
+    td,tr{
+        color: #000;
+        
+    }
+}
+
+.blue{
+    background: rgba(0, 46, 133, 0.4);
+}
+
+.grey{
+    background: rgba(61, 61, 61, 0.411);
+}

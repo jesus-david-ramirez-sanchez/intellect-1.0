@@ -30,6 +30,8 @@
 .no-gutters img {
   display: block;
   margin: auto;
+  height: 98%;
+  width: 70%;
 }
 
 .footer {
@@ -57,5 +59,27 @@
 
 .footer a:hover {
   color: #13a0a0;
+}
+
+.showcase p {
+  text-align: justify;
+  color: #333 !important;
+}
+
+.showcase h2 {
+  text-align: center;
+  color: #000;
+}
+
+.showcase td, .showcase tr {
+  color: #000;
+}
+
+.blue {
+  background: rgba(0, 46, 133, 0.4);
+}
+
+.grey {
+  background: rgba(61, 61, 61, 0.411);
 }
 /*# sourceMappingURL=style.css.map */
