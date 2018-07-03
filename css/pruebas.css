@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
 
+body{
+  background: #eee;
+}
+
+
 .animated {
   animation-duration: 1s;
   animation-fill-mode: both;
