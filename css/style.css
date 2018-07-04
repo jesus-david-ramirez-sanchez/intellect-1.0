@@ -96,6 +96,29 @@
   z-index: -1;
 }
 
+.card2 {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.card2::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+  background: -webkit-gradient(linear, left top, right top, from(#000428), to(#004e92));
+  background: linear-gradient(to right, #000428, #004e92);
+  width: 100%;
+  height: 25px;
+  -webkit-filter: blur(20px);
+          filter: blur(20px);
+  z-index: -1;
+}
+
 .tabla {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -106,5 +129,15 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.h22 {
+  height: 20px;
+  padding-bottom: 130px;
+}
+
+.h22 h2 {
+  font-size: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
